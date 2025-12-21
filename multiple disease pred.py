@@ -15,15 +15,15 @@ from streamlit_option_menu import option_menu
 # =======================
 
 diabetes_model = pickle.load(
-    open("C:/Users/shiva/OneDrive/Desktop/deploy ML model/diabetes_model.sav", "rb")
+    open("diabetes_model.sav", "rb")
 )
 
 heart_model = pickle.load(
-    open("C:/Users/shiva/OneDrive/Desktop/deploy ML model/trained_model.sav", "rb")
+    open("trained_model.sav", "rb")
 )
 
 parkinsons_model = pickle.load(
-    open("C:/Users/shiva/OneDrive/Desktop/deploy ML model/parkinsons_model.sav", "rb")
+    open("parkinsons_model.sav", "rb")
 )
 
 
@@ -254,3 +254,4 @@ if selected == 'Parkinsons Prediction':
             parkinsons_diagnosis = 'The Person does not have Parkinson’s Disease'
 
     st.success(parkinsons_diagnosis)
+
