@@ -3,5 +3,3 @@ streamlit-option-menu
 numpy
 pandas
 scikit-learn
-
-
