@@ -1,6 +1,10 @@
 """
-Retrain all disease prediction models with the current scikit-learn version.
-This fixes the InconsistentVersionWarning and wrong predictions.
+retrain_models.py — MediPredict AI
+Retrains all three disease prediction models (Diabetes, Heart, Parkinson's)
+using the latest installed scikit-learn version to fix InconsistentVersionWarning.
+
+Usage: python retrain_models.py
+Output: saves diabetes_model.sav, trained_model.sav, parkinsons_model.sav
 """
 import pandas as pd
 import numpy as np
