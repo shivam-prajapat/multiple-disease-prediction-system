@@ -1,5 +1,6 @@
-streamlit
-streamlit-option-menu
-numpy
-pandas
-scikit-learn
+# MediPredict AI — Python Dependencies
+streamlit                # Web app framework for the UI
+streamlit-option-menu    # Sidebar navigation component
+numpy                    # Numerical computations
+pandas                   # Dataset loading and manipulation
+scikit-learn             # ML models: SVM, Logistic Regression, StandardScaler
