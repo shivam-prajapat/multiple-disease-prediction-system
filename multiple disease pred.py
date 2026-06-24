@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Multiple Disease Prediction System
-Beautifully redesigned with rich UI and corrected model predictions.
+MediPredict AI - Multiple Disease Prediction System
+Author: Shivam Prajapat
+Version: 1.0.0
+Description: AI-powered screening tool for Diabetes, Heart Disease, and Parkinson's.
+             Built with Streamlit and scikit-learn ML models.
 """
 
 import pickle
